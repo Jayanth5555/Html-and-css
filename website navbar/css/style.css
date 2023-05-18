@@ -1,0 +1,113 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+  }
+  
+  a {
+    color: #47b2e4;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #73c5eb;
+    text-decoration: none;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Jost", sans-serif;
+  }
+  
+
+.nav {
+    position: relative;
+    width: 1700px;
+    height: 70px;
+    background: #3c4042;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
+}
+
+.logo  {
+    padding: 10px 30px;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: black;
+
+}
+ span{
+    color: rgb(208, 80, 33);
+}
+.nav-links {
+    float: right;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.nav-links ul li {
+    display: inline-block;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.container1 {
+    position: relative;
+    width: 1660px;
+    height: 600px;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #55636a;
+    font-family: "Jost", sans-serif;
+    font-size: larger;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container1 h1{
+    text-align: center;
+    width: 1600px;
+    height: 250px;
+    color: black;
+}
+ .container1 #button{
+ position: absolute;
+ height: 40px;
+ width: 150px;
+ top: 350px;
+ left: 900px;
+ transform-box: inline;
+ background-color: #6492a7; 
+ color: rgb(248, 245, 245);
+ border-radius: 20px;
+ /* mix-blend-mode: multiply; */
+}
+.container1 #button1 {
+    position: absolute;
+    height: 40px;
+    width: 150px;
+    top: 350px;
+    left: 650px;
+    transform-box: inline;
+    background-color: #6492a7; 
+    color: rgb(5, 5, 5);
+    border-radius: 20px;
+   }
+   :hover #button1 {
+    background-color:  rgb(208, 80, 33);
+   }
